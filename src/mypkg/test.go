@@ -10,6 +10,11 @@ package mypkg
 
 var pop map[string]string
 
+type Template struct {
+	//wow string // 소문자로 시작하면 이 변수를 접근 할 수 없게 됨.
+	Wow string
+}
+
 func init() {
 	println("MYPKG INIT")
 

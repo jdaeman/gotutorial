@@ -18,6 +18,6 @@ import (
 	// mysql "other/mysql/db"
 )
 
-func main() {
+func main_8() {
 	fmt.Println(mypkg.Getstring("C"))
 }
