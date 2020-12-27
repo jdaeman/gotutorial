@@ -43,7 +43,7 @@ func adder_v2(nums ...int) (count int, total int) {
 	return
 }
 
-func main() {
+func main_5() {
 	str := "Hello"
 
 	cbr(&str)
